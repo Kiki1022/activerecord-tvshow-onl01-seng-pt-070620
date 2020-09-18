@@ -13,7 +13,8 @@ class Show < ActiveRecord::Base
   end
   
   def self.least_popular_show
-    self.lowest_rating.first
+    show = self.lowest_rating
+    show.first
   end
   
   
