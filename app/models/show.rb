@@ -8,6 +8,9 @@ class Show < ActiveRecord::Base
     Show.where("rating = 10").first
   end
   
+  def self.lowest_rating
+  binding.pry
+  end
   
   
   
