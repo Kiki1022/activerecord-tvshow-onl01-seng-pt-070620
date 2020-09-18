@@ -5,7 +5,8 @@ class Show < ActiveRecord::Base
   end
   
   def self.most_popular_show
-    highest_rating(:name)
+    binding.pry
+  #highest_rating(:name)
   end
   
   
