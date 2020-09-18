@@ -11,5 +11,3 @@ class Show < ActiveRecord::Base
   
     
 end
-
-<Show>.sum(:<>)
