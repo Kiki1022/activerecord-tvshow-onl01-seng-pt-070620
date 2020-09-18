@@ -13,8 +13,9 @@ class Show < ActiveRecord::Base
   end
   
   def self.least_popular_show
-    show = self.lowest_rating
-    show.first
+    binding.pry
+    # show = self.lowest_rating
+    # show.first
   end
   
   
