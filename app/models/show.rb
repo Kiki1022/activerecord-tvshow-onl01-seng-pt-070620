@@ -16,9 +16,9 @@ class Show < ActiveRecord::Base
     Show.where("rating = 2").first
   end
   
-    def self.ratings_sum
-      sum(:rating)  
-    end
+  def self.ratings_sum
+    sum(:rating)  
+  end
   
   
   
